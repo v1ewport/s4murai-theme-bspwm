@@ -100,11 +100,9 @@ source $ZSH/oh-my-zsh.sh
 #ALIASES
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias bettercap="sudo ~/go/bin/bettercap"
-alias osinted="sudo python3 ~/Documents/GITHUB/OSINTed/osinted.py"
 
 #INIT COMANDS
-neofetch --kitty /home/viewport/nf.png
+neofetch --kitty /path/to/image.png
 eval "$(starship init zsh)"
 
 export PATH=/usr/local/sbin:$PATH
