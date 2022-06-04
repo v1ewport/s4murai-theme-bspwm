@@ -1,6 +1,8 @@
 
 # S4MURAI RED THEME FOR BSPWM
 
+NEEDS **ZSH**.
+
 Add init commands to your .zshrc file
 
 ```
