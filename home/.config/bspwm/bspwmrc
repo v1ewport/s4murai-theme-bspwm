@@ -1,0 +1,20 @@
+#!/bin/bash
+ 
+xsetroot -cursor_name left_ptr
+pkill sxhkd
+sxhkd &
+ 
+bspc config border_width	2
+bspc config window_gap		12
+
+bspc config split_ratio		0.62
+bspc config focus_follows_pointer	true
+bspc config pointer_modifier	mod1
+ 
+bspc config automatic_scheme	spiral
+
+brightnessctl s 60
+
+feh --bg-scale /path/to/wallpaper
+
+~/.config/polybar/launch.sh --shapes &
