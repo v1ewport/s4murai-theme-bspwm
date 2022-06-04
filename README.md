@@ -14,3 +14,4 @@ Exec polybar theme with  - `~/.config/polybar/launch.sh --shapes &`
 
 ![alt text](https://raw.githubusercontent.com/v1ewport/s4murai-theme-bspwm/main/preview.png)
 
+**NEOFETCH ICONS NEEDS THE HACK NERD FONT**
